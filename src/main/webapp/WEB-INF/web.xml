@@ -1,0 +1,64 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <!--<servlet>
+        <servlet-name>getAllStudentsServlet</servlet-name>
+        <servlet-class>com.lessons.GetAllStudentsServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>insertStudentServlet</servlet-name>
+        <servlet-class>com.lessons.InsertStudentServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getStudentWithMarkAndSubjectServlet</servlet-name>
+        <servlet-class>com.lessons.GetStudentWithMarkAndSubjectServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>updateStudentServlet</servlet-name>
+        <servlet-class>com.lessons.UpdateStudentServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>delateStudentServlet</servlet-name>
+        <servlet-class>com.lessons.DelateStudentServlet</servlet-class>
+    </servlet>-->
+
+    <servlet>
+        <servlet-name>myServlet</servlet-name>
+        <servlet-class>com.lessons.MyServlet</servlet-class>
+    </servlet>
+
+    <!--<servlet-mapping>
+        <servlet-name>getAllStudentsServlet</servlet-name>
+        <url-pattern>/getAllStudentsServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>insertStudentServlet</servlet-name>
+        <url-pattern>/insertStudentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>getStudentWithMarkAndSubjectServlet</servlet-name>
+        <url-pattern>/getStudentWithMarkAndSubjectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>updateStudentServlet</servlet-name>
+        <url-pattern>/updateStudentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>delateStudentServlet</servlet-name>
+        <url-pattern>/delateStudentServlet</url-pattern>
+    </servlet-mapping>-->
+    <servlet-mapping>
+        <servlet-name>myServlet</servlet-name>
+        <url-pattern>/myServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
