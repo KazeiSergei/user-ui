@@ -281,6 +281,8 @@ public class MyServlet extends BaseServlet {
         int markId = Integer.parseInt(request.getParameter("mark"));
         Mark mark = new Mark(studentId, subjectId, markId);
         markDao.insertMark(mark);
+
+        
         response.sendRedirect(request.getContextPath() + "/" +
         request.getServletPath() + "?getParametr=getStudentWithMarkAndSubject&id=" + studentId);
     }
