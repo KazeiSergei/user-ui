@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
-import java.util.function.BooleanSupplier;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -31,6 +30,8 @@ public class MyServlet extends BaseServlet {
         if (request.getParameter("getParametr") == null) {
             getAllStudent(request, response);
         } else {
+
+            i
             switch (request.getParameter("getParametr")) {
                 case GET_ALL_STUDENT:
                     getAllStudent(request, response);
