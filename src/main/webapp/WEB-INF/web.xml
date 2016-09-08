@@ -10,7 +10,7 @@
 
     <servlet>
         <servlet-name>myServlet</servlet-name>
-        <servlet-class>com.lessons.MyServlet</servlet-class>
+        <servlet-class>com.lessons.MainServlet</servlet-class>
     </servlet>
 
     
